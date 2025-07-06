@@ -1,4 +1,4 @@
-# Simple Notes App for TWS Community
+# Simple Notes App for CloudOps Mastery Academy
 This is a simple notes app built with React and Django.
 
 ## Requirements
@@ -9,17 +9,17 @@ This is a simple notes app built with React and Django.
 ## Installation
 1. Clone the repository
 ```
-git clone https://github.com/LondheShubham153/django-notes-app.git
+git clone https://github.com/awslinuxdevops/django-pro-labs.git
 ```
 
 2. Build the app
 ```
-docker build -t notes-app .
+docker build -t online-note-app .
 ```
 
 3. Run the app
 ```
-docker run -d -p 8000:8000 notes-app:latest
+docker run -d -p 8000:8000 online-note-app:latest
 ```
 
 ## Nginx
