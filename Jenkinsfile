@@ -1,12 +1,12 @@
-@Library('Shared')_
+@Library('shared')_
 pipeline{
-    agent { label 'dev-server'}
+    agent { label 'devops'}
     
     stages{
         stage("Code clone"){
             steps{
                 sh "whoami"
-            clone("https://github.com/LondheShubham153/django-notes-app.git","main")
+            clone("https://github.com/awslinuxdevops/django-pro-labs.git","main")
             }
         }
         stage("Code Build"){
